@@ -1,6 +1,7 @@
-# **Temperature PID Controller for ARM Cortex M (STM32F103C8T6)**
+# **Control egg incubator temperature by PID**
 # **Introduction**
 This is project about the STM32F103C8T6 microcontroller, measure the incubator temperature and use the PID controller to calculate the PWM level, thereby controlling the amount of heat emitted from the light bulb to stabilize the temperature at the desired level. It has all the functions of a thermostat including:
+- Microcontroller: STM32F103C8T6.
 - Use PID algorithm to adjust temperature (heat emitted from incandescent light bulbs)
 - Use the push button to increase or decrease the temperature (using External interrupt)
 - LCD screen to display temperature
